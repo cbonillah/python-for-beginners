@@ -12,7 +12,11 @@ Download and install the [Visual Studio Code](https://code.visualstudio.com/) ed
 
 Install the Python extension if it's not installed, click on the extensions side bar menu (Or use the keyboard shortcut `Ctrl+Shift+X`), check if the Python (By Microsoft) extension is installed or install it by searching it in the Marketplace and adding it to the code editor.
 
-## Chocolatey
+## Install Python
+
+We'll start by installing Python, a very popular, powerful and easy to use programming language.
+
+### Using Chocolatey (Recommended)
 
 Install [Chocolatey](https://chocolatey.org), a "package manager" for windows environment.
 
@@ -34,6 +38,12 @@ When everything is done run:
 python --version
 ```
 To make sure python is installed.
+
+### Directly
+
+Head over to the [Python windows install page](https://www.python.org/downloads/windows/) and download the `Windows installer`. Download the appropiate installer (`64-bit` or `32-bit`) for your machine.
+
+> To tell which one you need, select the `Start` button, then select `Settings > System > About` . At the right, under `Device specifications`, see `System type`.
 
 ## Hello world!
 
