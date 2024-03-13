@@ -12,11 +12,11 @@ Download and install the [Visual Studio Code](https://code.visualstudio.com/) ed
 
 Install the Python extension if it's not installed, click on the extensions side bar menu (Or use the keyboard shortcut `Ctrl+Shift+X`).
 
-![](/images/fzth/where-extensions-is.webp)
+![](images/where-extensions-is.webp)
 
 Check if the Python (By Microsoft) extension is installed or install it by searching it in the Marketplace and adding it to the code editor.
 
-![](/images/fzth/how-to-search-for-python.webp)
+![](images/how-to-search-for-python.webp)
 
 ## Install Python
 
@@ -30,7 +30,7 @@ Chocolatey will help you install programming software through an easy to use com
 
 Press the `Windows` key and search for the `Powershell`, right click on the `Windows Powershell` entry and select `Run as administrator`.
 
-![](/images/fzth/run-powershell-as-admin.webp)
+![](images/run-powershell-as-admin.webp)
 
 Head over to [the Chocolatey install page](https://chocolatey.org/install) and follow the instructions by running the instructed command on your `Powershell` terminal.
 
@@ -45,6 +45,7 @@ When everything is done run:
 ```powershell
 python --version
 ```
+
 To make sure python is installed.
 
 ### Directly
@@ -59,15 +60,15 @@ Create a folder for our programming journey, a recommended folder would be in yo
 
 Open the folder within VisualStudio Code using the `Open folder` shortcut, or by selecting the option through the `File>Open folder` menu.
 
-![](/images/fzth/where-open-folder-is.webp)
+![](images/where-open-folder-is.webp)
 
 Create a new folder for this section either on your file explorer or through VisualStudio Code named `1-hello-world`.
 
-![](/images/fzth/where-new-folder-is.webp)
+![](images/where-new-folder-is.webp)
 
 Then, create a new file `hello-world.py`, using the new file button or by pressing `Ctrl+N`.
 
-![](/images/fzth/where-new-file-is.webp)
+![](images/where-new-file-is.webp)
 
 Now, click on the file to start editing and we will write now our first program that greets everyone through the console interface.
 
@@ -75,5 +76,6 @@ Now, click on the file to start editing and we will write now our first program 
 print("Hello world")
 ```
 
-Hit the play button and watch as your program comes to life and greets everyone.
-![](/images/fzth/how-to-run-python-file.webp)
+Make sure to save your file before running (`Ctrl`+`S`). Hit the play button and watch as your program comes to life and greets everyone.
+![](images/how-to-run-python-file.webp)
+
