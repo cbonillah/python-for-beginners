@@ -1,3 +1,9 @@
+---
+weight: 2
+title: "Lights, camera, action!"
+---
+
+
 # Lights, camera, action!
 
 Get familiar with the script concept in programming. Understand how code is "interpreted" and why it is interpreted by Python.
