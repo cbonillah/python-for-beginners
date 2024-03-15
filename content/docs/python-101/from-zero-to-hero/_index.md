@@ -79,3 +79,4 @@ print("Hello world")
 Make sure to save your file before running (`Ctrl`+`S`). Hit the play button and watch as your program comes to life and greets everyone.
 ![](images/how-to-run-python-file.webp)
 
+{{< button relref="/docs/python-101/lights-camera-action" >}}Continue onwards{{< /button >}}
