@@ -75,8 +75,8 @@ Then, create a new file `hello-world.py`, using the new file button or by pressi
 
 ![](images/where-new-file-is.webp)
 
-Now, click on the file to start editing and we will write now our first program that greets everyone through the console interface.
 
+Now, click on the file to start editing and we will write now our first program that greets everyone through the console interface.
 ```python
 print("Hello world")
 ```

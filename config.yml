@@ -1,0 +1,21 @@
+baseURL: 'https://cbonillah.github.io/python-for-beginners/'
+languageCode: 'es-mx'
+title: 'Python for absolute beginners'
+defaultContentLanguage: 'es'
+
+module:
+  imports:
+    - path: 'github.com/alex-shpak/hugo-book'
+
+languages:
+  es:
+    languageName: Español
+    languageCode: 'es-mx'
+    contentDir: content.es
+    title: 'Python desde cero para principiantes'
+    weight: 2
+  en:
+    languageCode: 'en-us'
+    languageName: English
+    contentDir: content.en
+    weight: 1

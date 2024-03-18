@@ -1,12 +1,11 @@
 ---
 weight: 3
 title: "Decision making"
-draft: true
 ---
 
 # Decision making
 
-Until now, we've written programs that tell Python what to do step by step. Let's take a look at this number division program, you can save it at `<Programming>/3-decisions/division.py`:
+Let's take a look at this number division program, you can save it at `<Programming>/3-decisions/division.py`:
 
 A two number division program:
 ```python
@@ -17,9 +16,9 @@ result = int(dividend) / int(divisor)
 print("The result of your division is:\n", result)
 print("All done!")
 ```
-If we try to run this program using `0` as a divisor, our program will break.
+If we try to run this program using `0` as a divisor, our program will break. This happens because division by zero is a tricky question to ask, even for humans.
 
-We can fix this by letting Python make decisions about how to run the code given what is going on in the program execution.
+Until now, we've written programs that tell Python what to do step by step like a single list, this does not allow us to make decisions about how respond in different situations, like in the example above
 
 ## What `if`
 
@@ -37,6 +36,7 @@ else:
     print("The result of your division is:", result)
 print("All done!")
 ```
+
 {{< hint info >}}
 **Tip**  
 

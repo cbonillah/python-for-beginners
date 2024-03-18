@@ -1,7 +1,0 @@
-baseURL = 'https://cbonillah.github.io/python-for-beginners/'
-languageCode = 'en-us'
-title = 'Python for absolute beginners'
-
-[module]
-[[module.imports]]
-path = 'github.com/alex-shpak/hugo-book'
