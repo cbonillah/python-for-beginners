@@ -69,7 +69,7 @@ Probablemente lo has adivinado, pero Python te permite utilizar otros `operadore
 - El operador `menor o igual que`, `==` ej. `-1 <= 2` es `True` (verdadero).
 
 {{< hint warning >}}
-**Important**
+**Importante**
 
 Estos operadores pueden comparar otros `tipos`, aparte de enteros. `"b" > "a"`, por ejemplo, es una operación válida.  
 Utiliza el `REPL` para jugar un poco y entender qué operadores puedes utilizar para diferentes tipos.
@@ -79,12 +79,8 @@ Utiliza el `REPL` para jugar un poco y entender qué operadores puedes utilizar 
 
 Vamos a escribir un programa para saber si un año en específico es, fue, o será bisiesto. Antes de hacerlo, escribiremos un guión como si estuvieramos describiendo el juego a alguien más (en lenguaje natural).
 
-{{< details "Un guión para indicar si un año es bisiesto" >}}
-
-1. Preguntar al usuario por el año en cuestión.
-2. Dividir el año sobre 4, si la división es exacta (no tiene residuo), sabremos que es un año bisiesto.
-
-{{< /details >}}
+> 1. Preguntar al usuario por el año en cuestión.
+> 2. Dividir el año sobre 4, si la división es exacta (no tiene residuo), sabremos que es un año bisiesto.
 
 Ahora podemos escribir nuestro programa, lo guardaremos en `<Programacion>/3-decisiones/bisiesto.py`.
 
